@@ -1,12 +1,3 @@
-import os
-
-# Step 1: Create the README content
-readme_content = """# Energy Consumption Prediction Project
-
-This project predicts energy consumption using machine learning techniques, specifically with a **LightGBM Regressor**. It uses features such as building type, HVAC systems, and other characteristics to make predictions.
-
----
-
 ## Dataset Overview
 
 The dataset contains the following features:
@@ -43,21 +34,4 @@ The dataset contains the following features:
 4. **Visualization**:
    - A bar plot compares R² scores for the validation and test datasets.
 
----
 
-## Usage
-
-### Requirements
-- Python 3.x
-- Required Libraries:
-  - `pandas`
-  - `numpy`
-  - `scikit-learn`
-  - `matplotlib`
-  - `seaborn`
-  - `lightgbm`
-
-### Run the Script
-1. Clone this repository:
-   ```bash
-   git clone git@github.com:AliAlhag/EnergyConsumption.git
